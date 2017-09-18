@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="IRCForwarder:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/IRCForwarder_jar</output-path>
-    <root id="archive" name="IRCForwarder.jar">
-      <element id="module-output" name="IRCForwarder" />
-    </root>
-  </artifact>
-</component>
