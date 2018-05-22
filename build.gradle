@@ -1,4 +1,4 @@
-group 'net.rymate'
+group 'net.rymate.ircforwarder'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
