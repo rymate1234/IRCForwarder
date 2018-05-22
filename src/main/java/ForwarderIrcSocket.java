@@ -52,7 +52,7 @@ public class ForwarderIrcSocket {
 
         String line = null;
         while (working) {
-            line = reader.readLine( );
+            line = reader.readLine();
             if (line != null) {
                 webSocket.send(line);
             }
