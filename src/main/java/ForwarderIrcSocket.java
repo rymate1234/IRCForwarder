@@ -1,8 +1,5 @@
 import org.java_websocket.WebSocket;
-import sun.security.ssl.SSLSocketImpl;
 
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
 import java.io.*;
 import java.net.Socket;
 import java.util.concurrent.Executors;
