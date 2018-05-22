@@ -1,5 +1,3 @@
-package net.rymate.ircforwarder;
-
 import org.java_websocket.WebSocket;
 import sun.security.ssl.SSLSocketImpl;
 

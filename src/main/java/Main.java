@@ -1,6 +1,4 @@
-package net.rymate.ircforwarder;
-
-import org.java_websocket.drafts.Draft_17;
+import org.java_websocket.*;
 
 import java.net.UnknownHostException;
 

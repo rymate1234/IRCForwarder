@@ -4,19 +4,11 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'idea'
 
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src/net/rymate/ircforwarder']
-        }
-    }
-}
-
 sourceCompatibility = 1.8
 
 jar {
     manifest {
-        attributes 'Main-Class': 'net.rymate.ircforwarder.Main'
+        attributes 'Main-Class': 'Main'
     }
 }
 
