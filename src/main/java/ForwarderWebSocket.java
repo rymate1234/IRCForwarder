@@ -1,10 +1,7 @@
-package net.rymate.ircforwarder;
-
 import org.java_websocket.WebSocket;
 import org.java_websocket.handshake.ClientHandshake;
 import org.java_websocket.server.WebSocketServer;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.HashMap;
 
@@ -70,5 +67,10 @@ public class ForwarderWebSocket extends WebSocketServer {
     @Override
     public void onError(WebSocket conn, Exception ex) {
         ex.printStackTrace();
+    }
+
+    @Override
+    public void onStart() {
+
     }
 }
